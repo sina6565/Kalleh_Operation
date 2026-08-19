@@ -11,14 +11,13 @@ config_version=5
 [application]
 
 config/name="Kalleh_Operation"
-run/main_scene="uid://b14jn5tjasmv2"
+run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Global="*uid://d1bug8udtoqw5"
-GameManager="*uid://d0ex884nwnmy4"
+GameManager="res://GameManager.gd"
 
 [display]
 
