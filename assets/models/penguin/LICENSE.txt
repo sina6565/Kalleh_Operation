@@ -1,0 +1,4 @@
+Penguin model (sourced from OpenGameArt - penguin low poly animated 3d model)
+
+Source: https://opengameart.org/content/penguin-low-poly-animated-3d-model
+License: CC0
