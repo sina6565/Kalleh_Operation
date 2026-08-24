@@ -1,0 +1,43 @@
+# Godot 4 .gitignore — safe defaults
+# Keep project.godot and source assets tracked — ignore generated, OS and editor files
+
+# Godot import and temporary files
+.import/
+.godot/
+
+# Exported builds
+*.apk
+*.aab
+*.x86_64
+*.exe
+*.zip
+*.tar.gz
+*.html
+*.pck
+
+# Editor backup files
+*.tmp
+*.temp
+*~
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Visual Studio/IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Cache/build directories (if created by your workflow)
+build/
+export/
+
+# NPM/node modules (if present)
+node_modules/
+
+# Do NOT ignore: .tscn, .gd, .glb, .gltf, .png, .webp, .svg, .json, project.godot
+# Keep .godot.gdignore as-is
