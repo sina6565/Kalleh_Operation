@@ -1,7 +1,7 @@
 extends CanvasLayer
 
-onready var score_label: Label = $ScoreLabel
-onready var health_label: Label = $HealthLabel
+@onready var score_label: Label = $ScoreLabel
+@onready var health_label: Label = $HealthLabel
 
 func set_score(value: int) -> void:
 	score_label.text = "Score: %d" % value
